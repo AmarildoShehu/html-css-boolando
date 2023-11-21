@@ -23,6 +23,14 @@ ul{
 .flex{
     display: flex;
 }
+
+.block{
+    display: block;
+}
+
+.none{
+    display: none;
+}
 .h-100{
     height: 100%;
 }
@@ -49,5 +57,98 @@ header{
       height: 50px;
 }
 .logo{
+
+}
+
+/*MAIN*/
+main{
+    padding-top: 100px;
+}
+.main-container{
+}
+
+
+
+/*IMMAGINI MAIN*/
+.img-main{
+    height: 420px;
+    width: 300px;
+}
+
+.img1:hover .webimg1{
+display: none;
+}
+.img1:hover .webimg1b{
+display: block;
+}
+
+
+
+
+
+
+/*
+}
+.block-webimg1{
+    background-image:url(../img/1.webp);
+    background-size: contain;
+}
+.block-webimg1b{
+    background-image:url(../img/1b.webp);
+    background-size: contain;
+}
+
+.block-webimg2{
+    background-image: url(../img/2.webp);
+    background-size: contain;
+}
+.block-webimg2b{
+    background-image:url(../img/2b.webp);
+    background-size: contain;
+}
+
+.block-webimg3{
+    background-image:url(../img/3.webp);
+    background-size: contain;
+}
+.block-webimg3b{
+    background-image:url(../img/3b.webp);
+    background-size: contain;
+}
+
+.block-webimg4{
+    background-image:url(../img/4.webp);
+    background-size: contain;
+}
+.block-webimg4b{
+    background-image:url(../img/4b.webp);
+    background-size: contain;
+}
+
+.block-webimg5{
+    background-image:url(../img/5.webp);
+    background-size: contain;
+}
+.block-webimg5b{
+    background-image:url(../img/5b.webp);
+    background-size: contain;
+}
+
+.block-webimg6{
+    background-image:url(../img/6.webp);
+    background-size: contain;
+}
+.block-webimg6b{
+    background-image:url(../img/6b.webp);
+    background-size: contain;
+
+}
+
+/*HOVER*/
+
+#img1:hover.block-webimg1{
+
+}
+#img1:hover.block-webimg1b{
 
 }
