@@ -13,7 +13,10 @@ body{
 ul{
     list-style-type: none;
 }
-
+li{
+    padding-right: 5px;
+    text-decoration: solid;
+}
 /*UTILS*/
 .container{
     max-width: 1000px;
@@ -53,8 +56,7 @@ header{
     justify-content: space-between;
 }
 .navbar-logo{
-      width: 150px;
-      height: 50px;
+      height: 25px;
 }
 .logo{
 
@@ -67,7 +69,23 @@ main{
 .main-container{
 }
 
+.sconto{
+    padding: 5px;
+    color: white;
+    background-color: red;
+    background-size: contain;
+    position: relative;
+    bottom: 40px;
+}
 
+.sostenibilità{
+    padding: 5px;
+    color: white;
+    background-color: green;
+    background-size: contain;
+    position: relative;
+    bottom: 40px;
+}
 
 /*IMMAGINI MAIN*/
 .img-main{
