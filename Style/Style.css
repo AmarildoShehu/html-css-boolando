@@ -67,6 +67,7 @@ main{
     padding-top: 100px;
 }
 .main-container{
+    justify-content: space-between;
 }
 
 .sconto{
