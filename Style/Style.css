@@ -47,6 +47,7 @@ header{
  background-color: orangered;
  position: fixed;
  width: 100%;
+ z-index: 1;
 }
 .navbar{
     color: white;
@@ -119,7 +120,7 @@ display: block;
 
 /*FOOTER*/
 footer{
-    height: 100px;
+    height: 200px;
     background-color: black;
 }
 .ending-bar{
