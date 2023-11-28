@@ -68,9 +68,10 @@ main{
 }
 .main-container{
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
-.sconto{
+.sale{
     padding: 5px;
     color: white;
     background-color: red;
@@ -88,7 +89,22 @@ main{
     bottom: 40px;
 }
 
-/*IMMAGINI MAIN*/
+/*Heart*/
+.img1{
+    position: relative;
+}
+.heart{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.heart:hover{
+    color: red
+}
+/*IMG MAIN*/
 .img-main{
     height: 420px;
     width: 300px;
@@ -101,73 +117,20 @@ display: none;
 display: block;
 }
 
-
-
-
-
-
-/*
+/*FOOTER*/
+footer{
+    height: 100px;
+    background-color: black;
 }
-.block-webimg1{
-    background-image:url(../img/1.webp);
-    background-size: contain;
-}
-.block-webimg1b{
-    background-image:url(../img/1b.webp);
-    background-size: contain;
+.ending-bar{
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
 }
 
-.block-webimg2{
-    background-image: url(../img/2.webp);
-    background-size: contain;
-}
-.block-webimg2b{
-    background-image:url(../img/2b.webp);
-    background-size: contain;
-}
-
-.block-webimg3{
-    background-image:url(../img/3.webp);
-    background-size: contain;
-}
-.block-webimg3b{
-    background-image:url(../img/3b.webp);
-    background-size: contain;
-}
-
-.block-webimg4{
-    background-image:url(../img/4.webp);
-    background-size: contain;
-}
-.block-webimg4b{
-    background-image:url(../img/4b.webp);
-    background-size: contain;
-}
-
-.block-webimg5{
-    background-image:url(../img/5.webp);
-    background-size: contain;
-}
-.block-webimg5b{
-    background-image:url(../img/5b.webp);
-    background-size: contain;
-}
-
-.block-webimg6{
-    background-image:url(../img/6.webp);
-    background-size: contain;
-}
-.block-webimg6b{
-    background-image:url(../img/6b.webp);
-    background-size: contain;
-
-}
-
-/*HOVER*/
-
-#img1:hover.block-webimg1{
-
-}
-#img1:hover.block-webimg1b{
-
+.ending-bar > div > *{
+    padding: 5px;
 }
